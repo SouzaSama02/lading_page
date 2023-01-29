@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+
+* {
+    background-color: #005AD5;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav {
+    margin-top: 25px;
+}
+
+.section {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #005AD5;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+}
+
+.name_sys {
+    font-size: 32px;
+    font-family: 'Black Ops One', cursive;
+}
+
+.am_system {
+    margin-right: 50%;
+    margin-left: 3%;
+    font-size: 26px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-height: 550px;
+}
+
+.content_text {
+    /*border: solid red 2px;*/
+    margin-left: 90px;
+    margin-top: 50px;
+    padding: 0px 100px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h1 {
+    font-size: 42px;
+}
+.p1 {
+    padding-top: 38px;
+    font-size: 15px;
+}
+
+.buttom {
+    /*border: solid 1px red;*/
+    margin-top: 50px;
+    padding: 0px;
+    
+}
+
+.explore {
+    background-color: white;
+    width: 116px;
+    height: 36px;
+    color: #005AD5;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+}
+
+.img {
+    /*border: solid red 2px;*/
+    padding: 0px;
+    margin-top: 50px;
+    margin-right: 90px;
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.range {
+    margin-top: 10%;
+    background: white;
+    width: 100%;
+    height: 80px;
+    border-top-left-radius: 90%;
+}
